@@ -1,0 +1,191 @@
+---
+# multilingual page pair id, this must pair with translations of this page. (This name must be unique)
+lng_pair: id_Examples
+title: 첫 회고록은 이런 어그로로...
+
+# post specific
+# if not specified, .name will be used from _data/owner/[language].yml
+author: Mr. solidarity
+# multiple category is not supported
+category: jekyll
+# multiple tag entries are possible
+tags: [jekyll, sample, example post, hukusima]
+# thumbnail image for post
+img: ":post_pic1.jpg"
+# disable comments on this page
+#comments_disable: true
+
+# publish date
+date: 2023-10-13 14:37:06 +0900
+
+# seo
+# if not specified, date will be used.
+#meta_modify_date: 2022-02-10 08:11:06 +0900
+# check the meta_common_description in _data/owner/[language].yml
+#meta_description: ""
+
+# optional
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
+#image_viewer_on: true
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
+#image_lazy_loader_on: true
+# exclude from on site search
+#on_site_search_exclude: true
+# exclude from search engines
+#search_engine_exclude: true
+# to disable this page, simply set published: false or delete this file
+#published: false
+---
+
+<!-- outline-start -->
+
+별거 없죠 미스터그린
+
+<!-- outline-end -->
+
+### Headings (centered)
+{:data-align="center"}
+
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+
+##### Heading 5
+
+###### Heading 6
+
+***
+
+### Paragraphs
+
+#### Paragraph
+
+**윌리엄 셰익스피어**, 진실한 마음의 결혼은 하지 말자
+장애를 인정하십시오. 사랑은 사랑이 아니다
+변경 사항이 발견되면 변경됩니다.
+또는 리무버로 구부려 제거합니다.
+아냐, 그건 영원히 고정된 표시야
+그것은 폭풍우를 바라보고도 결코 흔들리지 않습니다.
+그것은 모든 완드링 바크의 별이요,
+그의 키는 짐작할 수 있지만 누구의 가치는 알 수 없습니다.
+사랑은 시간의 바보가 아니다, 비록 장밋빛 입술과 뺨일지라도
+그의 구부러지는 낫의 나침반 안으로 오십시오.
+사랑은 짧은 시간과 몇 주 동안 변하지 않습니다.
+그러나 운명의 가장자리까지 이를 견뎌냅니다.
+이것이 오류이고 나에게 증명된다면,
+나는 글을 쓴 적도 없고, 누구도 사랑한 적도 없습니다.
+
+#### Texts
+
+Quoted text `Hello world`
+
+Bold text **Hello world**
+
+Italic text _Hello world_
+
+kbd text <kbd>Hello world</kbd>
+
+#### Blockquote
+
+> **William Shakespeare**, Let me not to the marriage of true minds
+> Admit impediments. Love is not love
+> Which alters when it alteration finds,
+> Or bends with the remover to remove.
+> O no, it is an ever-fixed mark
+> That looks on tempests and is never shaken;
+> It is the star to every wand'ring barque,
+> Whose worth's unknown, although his height be taken.
+> Love's not Time's fool, though rosy lips and cheeks
+> Within his bending sickle's compass come;
+> Love alters not with his brief hours and weeks,
+> But bears it out even to the edge of doom.
+> If this be error and upon me proved,
+> I never writ, nor no man ever loved.
+
+### Link
+
+This is [Mr. Green Jekyll Theme](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme), a simple theme built for [Jekyll](https://jekyllrb.com/).
+
+\* Hello world! This is **[{{ site.data.owner[site.data.conf.main.default_lng].brand }}]({{ site.url }})**
+
+### Picture
+
+![such a lovely place](:post_pic1.jpg)
+
+### Picture (centered)
+
+![such a lovely place](:post_pic1.jpg){:data-align="center"}
+
+### Lists
+
+- Apple
+- Banana
+- Orange
+
+1. Fruits
+   1. Apples
+      - Granny Smith
+      - Mutsu
+   1. Bananas
+      - Cavendish
+      - Red
+1. Vegetables
+
+***
+
+### Tables
+
+#### Small Table (centered)
+
+| Fruits(not aligned) | Alignment (centered) | num (right align) |
+| ------------------- | :------------------: | ----------------: |
+| Apple               |       centered       |              9999 |
+| Banana              |  centered long text  |               999 |
+| Orange              |       centered       |                99 |
+| Lemon               |       centered       |                 9 |
+{:data-align="center"}
+
+#### Wide Table (centered)
+
+scroll enabled when page is narrow
+
+| Fruits | num (left align) | num (right align) | num  | num  | num  |
+| ------ | :--------------- | ----------------: | ---- | ---- | ---- |
+| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 |
+| Banana | 111              |               111 | 222  | 333  | 444  |
+| Orange | 11               |                11 | 22   | 33   | 44   |
+| Lemon  | 1                |                 1 | 2    | 3    | 4    |
+{:data-align="center"}
+
+#### Wider Table
+
+scroll enabled when page is narrow
+
+| Fruits | num (left align) | num (right align) | num  | num  | num  | num  | num  | num  |
+| ------ | :--------------- | ----------------: | ---- | ---- | ---- | ---- | ---- | ---- |
+| Apple  | 1111             |              1111 | 2222 | 3333 | 4444 | 5555 | 6666 | 7777 |
+| Banana | 111              |               111 | 222  | 333  | 444  | 555  | 666  | 777  |
+| Orange | 11               |                11 | 22   | 33   | 44   | 55   | 66   | 77   |
+| Lemon  | 1                |                 1 | 2    | 3    | 4    | 5    | 6    | 7    |
+
+### Code
+
+#### Highlight
+
+{% highlight python %}
+for i in range(5, 10):
+  print(i)
+{% endhighlight %}
+
+#### Quote
+
+```python
+for i in range(5, 10):
+  print(i)
+```
